@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .fg { fill: #181715; }
+    .ac { fill: #964520; }
+    @media (prefers-color-scheme: dark) {
+      .fg { fill: #f0ede7; }
+      .ac { fill: #d97757; }
+    }
+  </style>
+  <polygon class="fg" points="20,50 31,14 37,14 26,50" />
+  <polygon class="ac" points="35,50 46,14 52,14 41,50" />
+</svg>
