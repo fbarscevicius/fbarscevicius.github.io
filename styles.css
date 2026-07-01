@@ -528,23 +528,14 @@ a {
   }
 }
 
-@media (max-width: 460px) {
-  /* Drop the // prefix and tighten the header so it fits narrow phones without overflow. */
-  .nav-slash {
+@media (max-width: 560px) {
+  /* On phones the full-name wordmark takes the header alone; the in-page nav is
+     dropped since the single-page content is a short scroll away. This also
+     keeps the longer wordmark from overflowing narrow screens. */
+  .site-nav {
     display: none;
   }
   .container.header-inner {
     padding-inline: 1.1rem;
-  }
-  .brand {
-    font-size: 0.82rem;
-  }
-  .site-nav {
-    gap: 0;
-  }
-  .site-nav a {
-    font-size: 0.72rem;
-    letter-spacing: 0;
-    padding: 0.4rem 0.35rem;
   }
 }
